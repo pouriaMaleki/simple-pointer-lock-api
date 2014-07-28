@@ -1,0 +1,18 @@
+{
+  "name": "simple-pointer-lock-api",
+  "version": "0.1.0-beta.1",
+  "description": "(work in progress)",
+  "main": "scripts/js/lib/Pointer.js",
+  "dependencies": {
+    "utila": "0.3.0-beta1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "prepublish": "node ./node_modules/coffee-script/bin/cake build"
+  },
+  "author": "Pouria Maleki",
+  "license": "MIT",
+  "repository": "https://github.com/PouriaMaleki/simple-pointer-lock-api.git"
+}
