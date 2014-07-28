@@ -1,10 +1,9 @@
 {
   "name": "simple-pointer-lock-api",
   "version": "0.1.0-beta.1",
-  "description": "(work in progress)",
+  "description": "Simple API for Pointer Lock in Chrome and Firefox",
   "main": "scripts/js/lib/Pointer.js",
   "dependencies": {
-    "utila": "0.3.0-beta1"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3"
@@ -14,5 +13,17 @@
   },
   "author": "Pouria Maleki",
   "license": "MIT",
-  "repository": "https://github.com/PouriaMaleki/simple-pointer-lock-api.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PouriaMaleki/simple-pointer-lock-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PouriaMaleki/simple-pointer-lock-api/issues"
+  },
+  "homepage": "https://github.com/PouriaMaleki/simple-pointer-lock-api",
+  "keywords": [
+    "PointerLockAPI",
+    "Pointer",
+    "Mouse"
+  ]
 }
